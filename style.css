@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/**HEADER OF THE WEBPAGE**/
+.navbar{
+    height: 20%;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogo{
+    height: 5%;
+    width: 12%;
+}
+.logo{
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.location-icon{
+    display: flex;
+}
+.deliver{
+    padding-left: 12px;
+    font-size: 0.75rem;
+    color: #CCCCCC;
+}
+.india{
+    display: inline;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:orange;
+    width: 30vw;
+    height: 20%;
+    border-radius: 3px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    color: #0F1111;
+}
+.hello{
+    font-size: 0.75rem;
+}
+.account{
+    font-size: 1rem;
+}
+.return{
+    font-size: 0.75rem;
+}
+.order{
+    font-size: 1rem;
+}
+.nav-box6 i{
+    font-size: 25px;
+}
+.panel{
+    height: 20%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-options{
+    width: 95%;
+}
+.icon-all{
+    font-weight: bold;
+}
+
+/**STYLING OF HERO SECTION OF THE WEBPAGE**/
+.hero-section{
+    background-image: url(heroSection_image.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 5vh;
+    width: 60vw;
+    font-size: 0.85rem;
+}
+.link{
+    color: #007185;
+    text-decoration: none;
+}
+.shopping-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid #e2e7e6;
+    height: 40vh;
+    width: 22%;
+    background-color: white;
+}
+.image1{
+    background-image: url(player.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image2{
+    background-image: url(makeup.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image3{
+    background-image: url(game.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image4{
+    background-image: url(kitchen.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image5{
+    background-image: url(PCs.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image6{
+    background-image: url(Store.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image7{
+    background-image: url(decor.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.image8{
+    background-image: url(fit.jpg);
+    background-size: cover;
+    height:30vh;
+    width: 22vw;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.shop{
+    color: #007185;
+}
+
+/**STYLING TO THE FOOTER OF THE WEBPAGE**/
+footer{
+    width: 100%;
+}
+.footer-panel1{
+    background-color: #374758e4;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;          /**to align 'BACK TO TOP' in center**/
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-panel2{
+    background-color:#374758 ;
+    color: white;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+}
+.footer-panel3{
+    background-color: #374758e4;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+@media screen (max-width:940px) {
+    .hero-section{
+        width:50px;
+    }
+    .image1{
+        width:36px;
+    }
+    .image2{
+        width: 36px;
+    }
+    .image3{
+        width: 36px;
+    }
+    .image4{
+        width: 36px;
+    }
+    .image5{
+        width: 36px;
+    }
+    .image6{
+        width: 36px;
+    }
+    .image7{
+        width: 36px;
+    }
+    .image8{
+        width: 36px;
+    }
+}
